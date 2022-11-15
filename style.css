@@ -1,0 +1,62 @@
+* {
+    box-size: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.main {
+    margin: 20px auto;
+    max-width: 550px;
+}
+
+.upper_part,
+.lower_part {
+    padding: 15px 10px;
+}
+
+.upper_part {
+    background-color: white;
+}
+
+.lower_part {
+    display:flex;
+    background-color: cadetblue;
+}
+.header {
+    color:rgb(41, 202, 202);
+}
+.color {
+    color: rgb(122, 180, 35);
+    font-size: 18px;
+}
+.gray {
+    color: gray;
+}
+.sub {
+    color: white;
+    font-weight: 800px;
+}
+
+.aqua,
+.aqua_2 {
+    width: 60%;
+}
+
+.sign {
+    margin-top: 9px;
+    border: none;
+    background-color: yellowgreen;
+    padding: 10px;
+    width: 60%;
+    color:white;
+    border-radius: 2px;
+}
+
+.white_1 {
+    color: whitesmoke;
+    font-size: 12px;
+}
